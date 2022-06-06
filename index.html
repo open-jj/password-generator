@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <noscript>Please enable JavaScript to view the website.</noscript>
+    <h1>Generate A Password</h1>
+    <div id="container">
+        <input type="text" value="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#$%&()*-/:;=?@[\]^_`{}" id="characters" placeholder="Characters">
+        <br><br><br>
+        <input type="number" value="16" min="1" id="length" placeholder="Length">
+        <br><br><br>
+        <button id="generate">Generate</button>
+        <p id="password">&#x003C;password&#x003E;</p>
+        <button id="copy">Copy</button>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+</html>
