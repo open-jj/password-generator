@@ -1,4 +1,4 @@
-# Password generator
+# Password generator <img src="https://raw.githubusercontent.com/open-jj/password-generator/main/favicon.ico" alt="" width="25" height="25"/>
 A Web Password Generator made using Javascript
 ## Link
 - [https://open-jj.github.io/password-generator](https://open-jj.github.io/password-generator)
